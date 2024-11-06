@@ -21,7 +21,6 @@ const Home = () => {
   useEffect(() => {
     if (inView) {
       fetchNextPage();
-      console.log("hi");
     }
   }, [fetchNextPage, inView]);
 
